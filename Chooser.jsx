@@ -25,7 +25,7 @@ class Chooser extends Component {
   }
 }
 Chooser.propTypes = {
-  chosen: PropTypes.string.isRequired
+  chosen: PropTypes.string
 }
 
 class Choice extends Component {
