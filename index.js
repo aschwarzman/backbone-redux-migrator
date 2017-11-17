@@ -25,6 +25,9 @@ function bbReduxMigratorInit (options, reduxAppMain) {
     dispatchAction: function (action) {
       store.dispatch(action)
     },
+    getStore: function (action) {
+      return store
+    },
     getView: function (name, constructorOverride) {
       const Parent = constructorOverride || options.viewsConstructor || Backbone.View
       return Parent.extend({
