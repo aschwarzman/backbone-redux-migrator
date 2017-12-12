@@ -1,5 +1,6 @@
-import React, {Component, Children, PropTypes} from 'react'
-import { connect } from 'react-redux';
+import React, { Component, Children } from 'react'
+import { connect } from 'react-redux'
+import PropTypes from 'prop-types'
 
 
 class Chooser extends Component {
